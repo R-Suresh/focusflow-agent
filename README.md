@@ -249,18 +249,6 @@ __pycache__/
 
 ---
 
-## Roadmap
-
-- [x] Milestone 1: Basic Colab notebook
-- [ ] Milestone 2: Slack integration
-- [ ] Milestone 3: Google Calendar holds
-- [ ] Add stricter structured output validation
-- [ ] Add sample workshop slides
-- [ ] Add screenshots or demo GIF
-- [ ] Add a lightweight web UI
-
----
-
 ## Who This Is For
 
 This project is useful for:
