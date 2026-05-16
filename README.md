@@ -200,25 +200,6 @@ The notebook generates calendar-ready event blocks that can later be converted i
 
 ---
 
-## Workshop Use
-
-This project is designed to be easy to teach in a short beginner workshop.
-
-Recommended flow:
-
-```text
-0–5 min: Explain the FocusFlow agent workflow
-5–10 min: Run setup and sample input
-10–18 min: Generate the structured plan
-18–23 min: Review task table, schedule, risks, and next action
-23–27 min: Preview Slack message and calendar holds
-27–30 min: Explain next milestones
-```
-
-The first milestone works even without real integrations, making it safe for live demos.
-
----
-
 ## Safety Notes
 
 Do not commit secrets to this repository.
@@ -234,32 +215,6 @@ Never commit:
 
 Use environment variables, Colab secrets, or `getpass()` prompts instead.
 
-Recommended `.gitignore` entries:
-
-```gitignore
-.env
-*.env
-credentials.json
-token.json
-*.pem
-*.key
-__pycache__/
-.ipynb_checkpoints/
-```
-
----
-
-## Who This Is For
-
-This project is useful for:
-
-- AI beginners
-- Students
-- Builders
-- Product managers
-- Founders
-- Engineers new to LLM agents
-- Anyone who wants a practical introduction to applied AI workflows
 
 ---
 
