@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# FocusFlow local app secrets
+credentials.json
+token.json
+*.pyc
