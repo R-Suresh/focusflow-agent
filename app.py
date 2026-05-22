@@ -122,15 +122,14 @@ else:
         st.subheader("Prioritized Task Table")
         df = tasks_dataframe(plan)
         if not df.empty:
-            st.dataframe(df, width="stretch")
+            st.dataframe(df, use_container_width=True)
         else:
             st.warning("No tasks found.")
-
     with schedule_tab:
         st.subheader("Today's Schedule")
         df = schedule_dataframe(plan)
         if not df.empty:
-            st.dataframe(df, width="stretch")
+            st.dataframe(df, use_container_width=True)
         else:
             st.warning("No schedule found.")
 
@@ -162,7 +161,7 @@ else:
         st.subheader("Calendar Holds Preview")
         calendar_df = calendar_payloads_dataframe(calendar_events)
         if not calendar_df.empty:
-            st.dataframe(calendar_df, width="stretch")
+            st.dataframe(calendar_df, use_container_width=True)
         else:
             st.warning("No calendar events prepared.")
 
